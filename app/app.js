@@ -8,7 +8,7 @@ angular.module("doctorsAndPatients", ["ngRoute"])
         templateUrl:"partials/doctorsView.html",
         controller: "DoctorCtrl"
     })
-    .when("/patients", {
+    .when("/:doctor", {
         templateUrl: "partials/patientView.html",
         controller: "PatientCtrl"
     })

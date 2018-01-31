@@ -1,4 +1,9 @@
 <div class="container">
         <h4>Patients</h4>
+        <div >
+            <ul ng-repeat="patient in patients">
+                <li>{{patient.first_name}} {{patient.last_name}} ({{patient.ailment}})</li>
+            </ul>
+        </div>
         
     </div>

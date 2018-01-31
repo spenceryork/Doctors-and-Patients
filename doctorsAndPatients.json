@@ -1,36 +1,29 @@
 {
     "doctors": [
         {
-            "killigrew": {
                 "first_name": "Johan",
                 "last_name": "Killigrew",
                 "speciality": "Pediatrics"
-            }
+
         },
         {
-            "davis": {
                 "first_name": "Jim",
                 "last_name": "Davis",
                 "speciality": "Surgery"
-            }
         }
     ],
     "patients": [
         {
-            "svenson": {
                 "first_name": "Margot",
                 "last_name": "Svenson",
                 "ailment": "Arthritis",
                 "doctor_id": "killigrew"
-            }
         },
         {
-            "wilson": {
                 "first_name": "Billy",
                 "last_name": "Wilson",
                 "ailment": "Heart problem",
-                "doctor_id": "Davis"
-            }
+                "doctor_id": "davis"
         }
         ]
 }

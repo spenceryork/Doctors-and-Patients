@@ -18,11 +18,12 @@ angular.module("doctorsAndPatients").factory("FbFactory", function(FBUrl, $http,
         });
     }
 
-    function getPatients() {
+    function getPatients(doctorName) {
         return $q( (resolve, reject) => {
            $http
-           .get(`${FBUrl}/patients.json?orderBy="patients"&equalTo="doctor_id"`)
+           .get(`${FBUrl}/patients.json?orderBy="doctor_id"&equalTo="${doctorName}"`)
            .then( (data) => {
+               console.log("promise name", data);
                resolve(data);
            })
            .catch( (error) => {
