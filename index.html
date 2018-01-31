@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body ng-app="doctorsAndPatients">
+    <h2>Doctors & Patients</h2>
+    <div ng-view>
+
+    </div>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"> -->
+    </script>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+
+    <!-- factories -->
+    <script src="app/factories/fbFactory.js"></script>
+
+  <!-- controllers -->
+    <script src="app/controllers/DoctorCtrl.js"></script>
+    <script src="app/controllers/PatientCtrl.js"></script>
+    <script src="dist/project.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "doctor-patients",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spenceryork/Doctors-and-Patients.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spenceryork/Doctors-and-Patients/issues"
+  },
+  "homepage": "https://github.com/spenceryork/Doctors-and-Patients#readme",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-route": "^1.6.8",
+    "firebase": "^4.9.0",
+    "grunt": "^1.0.1",
+    "grunt-angular-builder": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.1.0",
+    "matchdep": "^2.0.0"
+  },
+  "devDependencies": {}
+}
